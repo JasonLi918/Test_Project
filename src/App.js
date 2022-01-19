@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Gameform from './Component/form';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Gameform/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
